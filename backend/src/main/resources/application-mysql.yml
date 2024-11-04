@@ -3,7 +3,7 @@ spring:
     name:
       trainee-app-with-data-jpa
   datasource:
-    url: jdbc:mysql://localhost:3306/test
+    url: jdbc:mysql://localhost:3306/databaseName
     username: root
     password: ${DB_PASSWORD:password}x
 
