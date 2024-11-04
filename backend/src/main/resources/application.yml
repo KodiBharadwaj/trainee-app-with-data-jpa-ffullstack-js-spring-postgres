@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: ${PROFILE:postgres}
+  application:
+    name:
+      trainee-app-with-data-jpa
+
+
